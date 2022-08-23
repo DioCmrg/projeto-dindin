@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 32px;
+}
+
+.logo-header img {
+    width: 200px;
+}
+
+nav.nav-header {
+    margin-right: 16px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+
+section.introducao {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.curso {
+    width: 60vw;
+}
+
+div.imgcurso {
+    width: 40vw;
+}
+
+.curso h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+.curso p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+section.aulas {
+    background-color: #F7F7F7;
+}
+
