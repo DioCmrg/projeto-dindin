@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 32px;
+}
+
+.logo-header img {
+    width: 200px;
+}
+
+nav.nav-header {
+    margin-right: 16px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+
+section.introducao {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 80px;
+}
+
+div.curso {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.imgcurso {
+    display: flex;
+    width: 40vw;
+}
+
+.curso h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+.curso p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+section.aulas {
+    background-color: #F7F7F7;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 75px 190px 75px 212px;
+}
+
+.aulas hr {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria video {
+    display: block;
+    width: 462px;
+    height: 261px;
+    padding-right: 76px;
+}
+
+.descricao h2 {
+    padding-bottom: 26px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+.descricao p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 32px;
+}
+
+.nav-footer a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+.button-footer a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 8px 24px;
+    margin: 10px;
+}
