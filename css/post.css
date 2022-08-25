@@ -6,6 +6,11 @@
     font-size: 100%;
 }
 
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 header {
     width: 100%;
     background-color: #2E948A;
@@ -43,6 +48,7 @@ nav.nav-header {
 }
 
 .post h1 {
+    text-align: center;
     padding-bottom: 12px;
     font-weight: 500;
     font-size: 50px;
@@ -66,10 +72,15 @@ nav.nav-header {
     color: #9D9D9D;
 }
 
+.post img {
+    width: 76vw;
+}
+
 article {
     margin: 64px 204px 130px 204px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 article h3 {
@@ -103,7 +114,7 @@ section.cursos {
 
     color: #FF4081;
 }
-
+/* UMA ARTE CHAMADA RESPONSIVIDADE AUTOMATICA */
 div.galeria {
     width: 100%;
     padding: 64px 0;
@@ -174,32 +185,6 @@ div.single-galeria a {
     border-radius: 62px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     width: 100%;
     background-color: #2E948A;
@@ -207,6 +192,10 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 12px 32px;
+}
+
+.logo-footer img{
+    width: 64px;
 }
 
 .nav-footer a {
@@ -225,4 +214,38 @@ footer {
     border-radius: 62px;
     padding: 8px 24px;
     margin: 10px;
+}
+
+@media screen and (max-width: 758px) {
+    header {
+        gap: 36px;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .nav-header a {
+        display: flex;
+    }
+    
+    article {
+        margin: 8px 24px;
+    }
+    
+    .post h1 {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    
+    .nav-footer a {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    .logo-footer img {
+        width: 25vw;
+    }
+    
 }

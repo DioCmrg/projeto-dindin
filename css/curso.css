@@ -6,8 +6,13 @@
     font-size: 100%;
 }
 
-header {
+body{
     width: 100%;
+    overflow-x: hidden;
+    }
+
+header {
+    min-width: 680px;
     background-color: #2E948A;
     display: flex;
     align-items: center;
@@ -36,11 +41,13 @@ nav.nav-header {
 }
 
 section.introducao {
-    width: 100%;
+    min-width: 680px;
     display: flex;
-    justify-content: center;
-    padding: 64px 80px;
-    background: #F7F7F7;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 81px;
+    padding-right: 50px;
+    background-color: white;
 }
 
 div.curso {
@@ -70,34 +77,38 @@ div.curso {
 }
 
 section.aulas {
-    background-color: #E5E5E5;
-    width: 100%;
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 75px 190px 75px 212px;
-}
-
-.aulas hr {
-    margin: 75px 0;
-    background-color: #C4C4C4;
-    /* color:  */
-    height: 4px;
-    border: none;
+    min-width: 680px;
 }
 
 div.galeria {
+    position: relative;
     display: flex;
+    padding: 75px 190px 75px 212px;
     justify-content: center;
+    background-color: #F6F6F6;
+}
+
+hr {
+    height: 5px;
+    width: 90vw;
+    background: #C4C4C4;
+    margin: 0 auto;
+    border: none;
 }
 
 .video img {
     padding-right: 76px;
 }
 
-div .descricao {
+div.descricao {
+    /* min-width: 1300px; */
     display: flex;
     flex-direction: column;
+   
 }
 
 .descricao h2 {
@@ -113,14 +124,15 @@ div .descricao {
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-    display: flex;
     align-items: center;
 
-    color: #000000;
+    
 }
 
+
+
 footer {
-    width: 100%;
+    min-width: 680px;
     background-color: #2E948A;
     display: flex;
     align-items: center;
@@ -146,24 +158,22 @@ footer {
     margin: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 820px) {
+
+    header {
+        gap: 36px;
+        justify-content: center;
+        width: 100vw;
+    }
 
     .nav-header a {
         display: flex;
-        text-decoration: none;
-        padding: 0 12px;
-        color: #FDFDFD;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        /* identical to box height */
-
-        text-transform: uppercase;
     }
 
     section.introducao {
-        width: 100%;
-        background: #F7F7F7;
+        width: 100vw;
+        padding: 20px 0;
+        justify-content: center;
     }
 
     .curso img {
@@ -171,46 +181,33 @@ footer {
     }
 
     section.aulas {
-        background-color: #E5E5E5;
-        background-color: aqua;
-        width: 100%;
-        display: flex;
+        min-width: none;
         flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .aulas hr {
-        margin: 75px 0;
-        background-color: #C4C4C4;
-        /* color:  */
-        height: 4px;
-        border: none;
+        width: 100vw;
     }
 
     div.galeria {
-        display: flex;
         justify-content: center;
-        background-color: brown;
-        max-width: 380px;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        width: 100vw;
     }
 
     .video img {
-        max-width: 380px
+        padding: 0;
     }
 
-    div .descricao {
+    div.descricao {
+    /* min-width: 1300px; */
+    text-align: center;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    .nav-footer a {
         display: none;
-    }
-
-    .descricao p {
-        background-color: red;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 23px;
-        display: flex;
-        align-items: center;
-
-        color: #000000;
     }
 
 }
