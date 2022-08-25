@@ -86,7 +86,88 @@ article p {
     color: #000000;
 }
 
+section.cursos {
+    background-color: #F7F7F7;
+}
 
+.cursos h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+
+    color: #FF4081;
+}
+
+div.galeria {
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.single-galeria {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+div.single-galeria img {
+    width: 100%;
+}
+
+#img1 {
+    width: 288px;
+    height: 279.06px;
+}
+
+#img2 {
+    width: 238px;
+    height: 279.06px;
+}
+
+#img3 {
+    width: 187px;
+    height: 279.06px;
+}
+
+div.single-galeria h3 {
+    padding: 50px 0 28px 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FF4081;
+}
+
+div.single-galeria p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+    line-height: 32px;
+    margin: 32px 0;
+}
+
+div.single-galeria a {
+    text-decoration: none;
+    padding: 16px 32px;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #FF4081;
+    border-radius: 62px;
+}
 
 
 
