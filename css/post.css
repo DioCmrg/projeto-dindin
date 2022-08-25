@@ -39,9 +39,11 @@ nav.nav-header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 111px 0 64px 0;
 }
 
 .post h1 {
+    padding-bottom: 12px;
     font-weight: 500;
     font-size: 50px;
     line-height: 57px;
@@ -52,6 +54,7 @@ nav.nav-header {
 }
 
 .post p {
+    padding-bottom: 74px;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -70,6 +73,7 @@ article {
 }
 
 article h3 {
+    padding: 80px 0 32px 0;
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
@@ -91,6 +95,7 @@ section.cursos {
 }
 
 .cursos h2 {
+    padding-top: 80px;
     text-align: center;
     font-weight: 500;
     font-size: 50px;
