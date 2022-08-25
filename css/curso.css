@@ -38,23 +38,23 @@ nav.nav-header {
 section.introducao {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 64px 80px;
+    background: #F7F7F7;
 }
 
 div.curso {
-    width: 60vw;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-div.imgcurso {
+.curso img {
+    padding-left: 88px;
     display: flex;
-    width: 40vw;
 }
 
 .curso h1 {
+    padding-bottom: 22px;
     font-weight: 700;
     font-size: 55px;
     line-height: 63px;
@@ -70,16 +70,20 @@ div.imgcurso {
 }
 
 section.aulas {
-    background-color: #F7F7F7;
+    background-color: #E5E5E5;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     padding: 75px 190px 75px 212px;
 }
 
 .aulas hr {
-    display: flex;
-    flex-wrap: nowrap;
+    margin: 75px 0;
+    background-color: #C4C4C4;
+    /* color:  */
+    height: 4px;
+    border: none;
 }
 
 div.galeria {
@@ -87,11 +91,13 @@ div.galeria {
     justify-content: center;
 }
 
-.galeria video {
-    display: block;
-    width: 462px;
-    height: 261px;
+.video img {
     padding-right: 76px;
+}
+
+div .descricao {
+    display: flex;
+    flex-direction: column;
 }
 
 .descricao h2 {
@@ -138,4 +144,73 @@ footer {
     border-radius: 62px;
     padding: 8px 24px;
     margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .nav-header a {
+        display: flex;
+        text-decoration: none;
+        padding: 0 12px;
+        color: #FDFDFD;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+    }
+
+    section.introducao {
+        width: 100%;
+        background: #F7F7F7;
+    }
+
+    .curso img {
+        display: none;
+    }
+
+    section.aulas {
+        background-color: #E5E5E5;
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aulas hr {
+        margin: 75px 0;
+        background-color: #C4C4C4;
+        /* color:  */
+        height: 4px;
+        border: none;
+    }
+
+    div.galeria {
+        display: flex;
+        justify-content: center;
+        background-color: brown;
+        max-width: 380px;
+    }
+
+    .video img {
+        max-width: 380px
+    }
+
+    div .descricao {
+        display: none;
+    }
+
+    .descricao p {
+        background-color: red;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
 }
