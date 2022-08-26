@@ -129,8 +129,6 @@ div.descricao {
     
 }
 
-
-
 footer {
     min-width: 680px;
     background-color: #2E948A;
@@ -138,6 +136,10 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 12px 32px;
+}
+
+.logo-footer img{
+    width: 264px;
 }
 
 .nav-footer a {
@@ -157,7 +159,7 @@ footer {
     padding: 8px 24px;
     margin: 10px;
 }
-
+    /* tive muita dificuldade para tornar essa página responsiva. by:Diovane */
 @media screen and (max-width: 820px) {
 
     header {
@@ -204,6 +206,10 @@ footer {
 
     footer {
         width: 100vw;
+    }
+
+    .logo-footer img {
+        width: 25vw;
     }
 
     .nav-footer a {
