@@ -215,7 +215,7 @@ footer {
     padding: 8px 24px;
     margin: 10px;
 }
-
+    /* tenho muita dúvidas de como ajustar corretamente a responsividade. by: Diovane */
 @media screen and (max-width: 758px) {
     header {
         gap: 36px;
