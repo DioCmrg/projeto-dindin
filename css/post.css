@@ -114,7 +114,8 @@ section.cursos {
 
     color: #FF4081;
 }
-/* UMA ARTE CHAMADA RESPONSIVIDADE AUTOMATICA */
+/* essa parte ficou com a responsividade ajustada automaticamente devido as propriedade do flexbox */
+/* fiquei muito encantado */
 div.galeria {
     width: 100%;
     padding: 64px 0;
